@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Verses - Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cream: #faf7f2;
+            --warm-brown: #5d4e37;
+            --soft-gold: #c9a961;
+            --deep-brown: #3a2f23;
+            --light-gray: #e8e4dd;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background: linear-gradient(135deg, var(--cream) 0%, #f5f1e8 100%);
+            color: var(--deep-brown);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 1.5rem 3rem;
+            background: linear-gradient(180deg, rgba(201, 169, 97, 0.08) 0%, transparent 100%);
+        }
+
+        h1 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--warm-brown);
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            font-family: 'Crimson Text', serif;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: var(--soft-gold);
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 1.5rem 4rem;
+        }
+
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 12px rgba(93, 78, 55, 0.08);
+            border: 1px solid var(--light-gray);
+        }
+
+        h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.8rem;
+            color: var(--warm-brown);
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--soft-gold);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.3rem;
+            color: var(--warm-brown);
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--deep-brown);
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--soft-gold);
+            text-decoration: none;
+            font-weight: 400;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--soft-gold);
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, var(--light-gray) 0%, var(--cream) 100%);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--soft-gold);
+            margin-top: 1.5rem;
+        }
+
+        .contact-box p {
+            margin: 0;
+        }
+
+        .contact-box strong {
+            color: var(--warm-brown);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            color: var(--warm-brown);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--warm-brown);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+
+            header {
+                padding: 3rem 1rem 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bible Verses</h1>
+        <p class="subtitle">Daily inspiration through God's word</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>About the App</h2>
+            <p>Bible Verses is a devotional app designed to bring you closer to God through His word. Each day, discover meaningful Bible verses that provide comfort, guidance, and inspiration for your spiritual journey.</p>
+            <p>Whether you're seeking encouragement, wisdom, or simply a moment of peace, our carefully curated collection of verses is here to uplift and strengthen your faith.</p>
+        </section>
+
+        <section class="section">
+            <h2>Features</h2>
+            <ul>
+                <li>Daily inspirational Bible verses</li>
+                <li>Browse verses by topic (faith, hope, love, courage, and more)</li>
+                <li>Save your favorite verses for quick access</li>
+                <li>Share verses with friends and family</li>
+                <li>Clean, distraction-free reading experience</li>
+                <li>Works offline once verses are loaded</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <h3>Is the app free?</h3>
+            <p>Yes! Bible Verses is completely free to use with no hidden costs or subscriptions.</p>
+
+            <h3>Which Bible translation do you use?</h3>
+            <p>We primarily use public domain translations to ensure the word of God is accessible to everyone.</p>
+
+            <h3>Do I need an internet connection?</h3>
+            <p>An internet connection is needed to initially load verses, but once loaded, you can access your saved favorites offline.</p>
+
+            <h3>How often are new verses added?</h3>
+            <p>We continually update our collection to provide fresh inspiration and cover a wide range of life situations and themes.</p>
+
+            <h3>Can I suggest a verse or feature?</h3>
+            <p>Absolutely! We'd love to hear from you. Please reach out using the contact information below.</p>
+        </section>
+
+        <section class="section">
+            <h2>Contact & Support</h2>
+            <p>We're here to help! If you have questions, feedback, or need assistance, please don't hesitate to reach out.</p>
+            
+            <div class="contact-box">
+                <p><strong>Email:</strong> <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></p>
+                <p style="margin-top: 0.5rem;"><strong>Response Time:</strong> We typically respond within 24-48 hours</p>
+            </div>
+
+            <h3 style="margin-top: 2rem;">Technical Issues</h3>
+            <p>If you're experiencing technical difficulties, please include:</p>
+            <ul>
+                <li>Your device model and iOS version</li>
+                <li>A description of the issue</li>
+                <li>Steps to reproduce the problem (if applicable)</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+        <p style="margin-top: 0.5rem;">© 2024 Bible Verses App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
